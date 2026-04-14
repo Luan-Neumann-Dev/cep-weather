@@ -12,7 +12,7 @@ export const fetchAddress = async (cep: string) => {
 
 // OpenWeather API
 export const fetchWeather = async (city: string) => {
-  const API_KEY = "YOUR_OPENWEATHER_API_KEY"; // Temporário - substituir por secret
+  const API_KEY = "PUT_YOUR_OPEN_WEATHER_API_KEY_HERE"; // Temporário - substituir por secret
   
   const response = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city},BR&units=metric&lang=pt_br&appid=${API_KEY}`
